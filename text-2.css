@@ -180,12 +180,11 @@ img {vertical-align: middle;}
     header {
       position: fixed;
       text-decoration: bol;
-      padding: 10px;
       color: #3a1cb2;
       height:auto;
     }
     header {
-      font-size: 45px;
+      font-size: 40px;
       text-align: center;
       background: #c0c1c9;
     }
