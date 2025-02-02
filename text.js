@@ -14,7 +14,7 @@ function sitemap(){
   window.location.href = "Sitemap.html"
 }
 function categories(){
-window.location.href = "categories.html"
+window.location.href = "Categories.html"
 }
 function account(){
   if (localStorage.getItem("pasword")=="" & localStorage.getItem("pasword")==null){
