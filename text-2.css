@@ -182,6 +182,7 @@ img {vertical-align: middle;}
       text-decoration: bol;
       color: #3a1cb2;
       height:auto;
+      width: 100%;
     }
     header {
       font-size: 42px;
