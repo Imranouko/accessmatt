@@ -6,14 +6,6 @@
 <link rel="stylesheet" type="text/css" href="text-2.css" />
 <script src="text.js"></script>
 </head>
- <?php
-$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-$txt = "John Doe\n";
-fwrite($myfile, $txt);
-$txt = "Jane Doe\n";
-fwrite($myfile, $txt);
-fclose($myfile);
-?>
 <body>
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -59,8 +51,6 @@ fclose($myfile);
 </div>
 <h1 style="text-align:center;">FEATURED</h1>
 <iframe style="height:600px; width:100%;" src="Featured.html"></iframe>
-<h1 style="text-align:center;">NEW ARRIVALS</h1>
-<iframe style="height:600px; width:100%;" src="Newarrival.html"></iframe>
 <h1 style="text-align:center;">phone accesories</h1>
 <a href="Paccessories.html"><img src="https://lovean.tech.blog/wp-content/uploads/2024/10/wp-17304062434186250580528570748561.jpg"/></a>
 <a style="height:600px; width:100%;" href="Paccessories.html"><button style="height:80px; width:100%;" ><h1>view products</h1></button></a>
